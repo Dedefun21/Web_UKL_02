@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+h3 {
+    text-align: center;
+    color: #007bff;
+}
+
+.jadwal-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+.jadwal-hari {
+    background: rgb(238, 230, 247);
+    border: 2px solid #007bff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    padding: 20px 28px;
+    min-width: 200px;
+    max-width: 240px;
+    text-align: center;
+    
+}
+.jadwal-hari li {
+    color: black;
+}
+
+.jadwal-hari h3 {
+    text-align: center;
+    color: #007bff;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+.footy {
+    width: 100vw;
+    min-width: 100vw;
+    max-width: 100vw;
+    left: 0;
+    right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+    background: #1972D9;
+    color: #fff;
+    padding: 24px 0 0 0;
+    box-sizing: border-box;
+}
+
+.footer-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 16px;
+    box-sizing: border-box;
+}
+
+.footer-section {
+    flex: 1 1 200px;
+    margin: 8px 0;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 12px 0;
+    background: #1972D9;
+    font-size: 14px;
+    margin-top: 16px;
+}
+
+.barr {
+    width: 100vw;
+    min-width: 100vw;
+    max-width: 100vw;
+    left: 0;
+    right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+    background: #1972D9;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+    .jadwal-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 8px;
+    }
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 8px;
+    }
+    .footer-section {
+        width: 100%;
+        text-align: center;
+    }
+}
