@@ -1,0 +1,169 @@
+.kotak {
+    width: 500px;
+    height: 160px;
+    background: #f0f0f0;
+    margin: 0 auto;          
+    margin-top: 8px;        
+    display: flex;
+    align-items: flex-start;   
+    justify-content: left;
+    border-radius: 12px;
+    
+    font-size: 20px;
+    padding-left: 24px; 
+    
+}
+
+.kotak img {
+    width: 130px;
+    height: 144px;
+    border-radius: 12px;
+    margin-right: 10px;
+    object-fit: cover;
+    margin-left:-7px;
+    margin-top: 6px;
+    padding-right: 18px;
+}
+h4 {
+    font-size: 22px;
+    color: #333;
+    text-align:center;
+    font-family: 'Poppins', sans-serif;
+}
+h5 {
+    font-size: 20px;
+    color: #0924ad;
+}
+p {
+    font-size: 15px;
+    color: #0e0b0b;
+}
+/* materi MTK */
+.MTK {
+    width: 500px;
+    height: 160px;
+    background: #f0f0f0;
+    margin: 0 auto;          
+    margin-top: 8px;        
+    display: flex;
+    align-items: flex-start;   
+    justify-content: left;
+    border-radius: 12px;
+    
+    font-size: 20px;
+    padding-left: 24px; 
+    
+}
+
+.MTK img {
+    width: 130px;
+    height: 144px;
+    border-radius: 12px;
+    margin-right: 10px;
+    object-fit: cover;
+    margin-left:-7px;
+    margin-top: 6px;
+    padding-right: 18px;
+}
+h4 {
+    font-size: 22px;
+    color: #333;
+    text-align:center;
+}
+h5 {
+    font-size: 20px;
+    color: #0924ad;
+}
+p {
+    font-size: 15px;
+    color: #0e0b0b;
+}
+/* materi IPA */
+.IPA {
+    width: 500px;
+    height: 160px;
+    background: #f0f0f0;
+    margin: 0 auto;          
+    margin-top: 8px;        
+    display: flex;
+    align-items: flex-start;   
+    justify-content: left;
+    border-radius: 12px;
+    
+    font-size: 20px;
+    padding-left: 24px; ; 
+    
+}
+.IPA img {
+    width: 130px;
+    height: 144px;
+    border-radius: 12px;
+    margin-right: 10px;
+    object-fit: cover;
+    margin-left:-7px;
+    margin-top: 6px;
+    padding-right: 18px;
+}
+h4 {
+    font-size: 22px;
+    color: #333;
+    text-align:center;
+}
+h5 {
+    font-size: 20px;
+    color: #0924ad;
+}
+p {
+    font-size: 15px;
+    color: #0e0b0b;
+}
+.content {
+    margin-bottom: 20px;
+      display: flex;
+    flex-direction: column;
+
+    flex: 1 0 auto;
+}
+.bgc {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    filter: blur(16px);
+}
+body{
+   display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+@media (max-width: 600px) {
+    .kotak, .MTK, .IPA {
+        width: 95vw;
+        min-width: 0;
+        max-width: 100vw;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .kotak img,
+    .MTK img,
+    .IPA img {
+        width: 80px;
+        height: auto;
+        margin: 8px 0 8px 0;
+        padding-right: 0;
+    }
+    h4 {
+        font-size: 18px;
+    }
+    h5 {
+        font-size: 16px;
+    }
+    p {
+        font-size: 13px;
+    }
+}
